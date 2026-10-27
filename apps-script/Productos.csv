@@ -1,0 +1,3 @@
+id,name,category,price,unit,image,emoji,featured,stock
+TAL-01,Taladro percutor 13 mm,Herramientas eléctricas,78900,Por unidad · 650 W,,🛠️,TRUE,TRUE
+MAR-01,Martillo de carpintero,Herramientas manuales,12500,Por unidad · 500 g,,🔨,FALSE,TRUE
