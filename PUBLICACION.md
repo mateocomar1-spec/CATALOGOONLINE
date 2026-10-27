@@ -15,7 +15,7 @@ Para actualizar la web, ejecutar `npm ci`, `npm run package:deploy` (requiere Py
 
 ## Publicación automática desde Git
 
-El repositorio incluye `netlify.toml` y `vercel.json`. Desde tu cuenta de Netlify o Vercel, importar el repositorio cuando el código esté subido a GitHub. Configuración: Node 24, comando `npm run build`, carpeta pública `dist`. El repositorio local de este entorno todavía no tiene commits publicados; crear el ZIP no sube archivos a GitHub.
+El repositorio incluye `netlify.toml` y `vercel.json`. El código ya está subido a GitHub en la rama `main`. Desde tu cuenta de Netlify o Vercel, importar `mateocomar1-spec/CATALOGOONLINE`. Configuración: Node 24, comando `npm run build`, carpeta pública `dist`. El código y el ZIP se publicaron en GitHub en el commit inicial `7d8ad07`. La existencia del ZIP no confirma un despliegue web.
 
 Netlify obtiene cabeceras y rutas de `dist/_headers` y `dist/_redirects`. Vercel las aplica desde `vercel.json`. No subir el ZIP manualmente a Vercel: usar su importación del repositorio o una CLI autenticada.
 
